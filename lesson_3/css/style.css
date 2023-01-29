@@ -1,0 +1,50 @@
+@import url("reset.css");
+
+* {
+   color: darkgreen;
+}
+
+.link {
+   color: red;
+}
+
+p {
+   color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   color: blueviolet;
+}
+
+.content p {
+   color: blue;
+}
+
+.bot-link a {
+   color: darkred;
+}
+
+.paragraph.marker {
+   color: red;
+}
+
+.chapter>p {
+   color: deeppink;
+}
+
+[class*="__container"] {
+   color: blueviolet;
+}
+
+.block-main>p {
+   color: blue;
+}
+
+.important-text {
+   color: brown !important;
+}

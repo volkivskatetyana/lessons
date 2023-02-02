@@ -34,7 +34,7 @@ body {
 }
 
 .intro {
-   font-family: 'Lora', Domine serif;
+   font-family: 'Lora', serif;
    font-size: 18px;
    font-weight: 400;
    text-align: right;
@@ -43,7 +43,7 @@ body {
 }
 
 h1 {
-   font-family: 'Montserrat', Roboto, Ubuntu sans-serif;
+   font-family: 'Montserrat', sans-serif;
    font-size: 24px;
    font-weight: 700;
    color: rgba(65, 105, 225, 0.706);
@@ -68,7 +68,7 @@ h3 {
 }
 
 .main-menu {
-   font-family: 'Lora', Domine serif;
+   font-family: 'Lora', serif;
    font-size: 20px;
    font-weight: 700;
    color: rgb(69, 198, 29);

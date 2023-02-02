@@ -1,0 +1,106 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+@font-face {
+   font-family: 'Hind Madurai';
+   src: url('../fonts/HindMadurai-Medium.woff2') format('woff2'),
+      url('../fonts/HindMadurai-Medium.woff') format('woff');
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Hind Madurai';
+   src: url('../fonts/HindMadurai-Regular.woff2') format('woff2'),
+      url('../fonts/HindMadurai-Regular.woff') format('woff');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Hind Madurai';
+   src: url('../fonts/HindMadurai-Bold.woff2') format('woff2'),
+      url('../fonts/HindMadurai-Bold.woff') format('woff');
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+body {
+   font-family: 'Hind Madurai', sans-serif;
+   font-size: 16px;
+}
+
+.intro {
+   font-family: 'Lora', serif;
+   font-size: 18px;
+   font-weight: 400;
+   text-align: right;
+   font-style: italic;
+   color: #7c7f87c5;
+}
+
+h1 {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 24px;
+   font-weight: 700;
+   color: rgba(65, 105, 225, 0.706);
+   text-align: center;
+   text-transform: uppercase;
+   line-height: 2; /* 40/20 */
+   text-shadow: 2px 17px 13px rgba(152, 187, 206, 0.81);
+}
+
+h2 {
+   font-size: 20px;
+   font-weight: 500;
+   color: #0000ff;
+   line-height: 2.5; /* 50/20 */
+}
+
+h3 {
+   font-size: 18px;
+   font-weight: 400;
+   color: #f200ff;
+   line-height: 2.7; /* 50/18 */
+}
+
+.main-menu {
+   font-family: 'Lora', serif;
+   font-size: 20px;
+   font-weight: 700;
+   color: rgb(69, 198, 29);
+}
+
+a{
+   text-decoration: underline;
+}
+
+.list{
+   letter-spacing: 20px;
+}
+
+.text{
+   letter-spacing: 20px;
+   white-space: nowrap;
+}
+
+.end{
+   word-spacing: 20px;
+   text-transform: lowercase;
+   line-height: 1.8; /* 30/16 */
+   color: #0000ff;
+}
+
+.indent{
+   font-family: 'Lora', serif;
+   font-weight: 700;
+   font-style: italic;
+   text-indent: 40px;
+   line-height: 1.8; /* 30/16 */
+   text-transform: uppercase;
+   color: #ff0022;
+   text-shadow: 2px 5px 13px rgba(141, 43, 95, 0.81);
+}

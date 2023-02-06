@@ -25,10 +25,11 @@ body {
     /* 25/14 */
     font-size: 14px;
     color: #212529;
-    font-family: Poppins;
+    font-family: Poppins, serif;
 }
 
-.wrapper {
+
+main {
     max-width: 1270px;
     min-height: 100%;
     overflow: hidden;
@@ -51,10 +52,13 @@ img {
     margin-bottom: 80px;
 }
 
+.intro{
+    padding-top: 15px;
+}
+
 h2 {
     font-weight: 700;
     font-size: 25px;
-    line-height: 1.6;
     color: #212529;
 }
 
@@ -64,7 +68,6 @@ h2 {
 
 .title-1{
     max-width: 400px;
-    padding-top: 15px;
 }
 
 .title-2{
@@ -77,6 +80,14 @@ p {
     line-height: 1.7;
     color: #6C757D;
     margin-bottom: 40px;
+}
+
+p.last{
+    margin-bottom: 0;
+}
+
+.ending p{
+    margin-bottom: 60px;
 }
 
 .banner{

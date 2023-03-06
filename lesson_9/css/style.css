@@ -1,0 +1,216 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:500,600,700&display=swap");
+
+html,
+body {
+    line-height: 1.6;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 300;
+    color: #212B36;
+}
+
+[class*="__container"] {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.icons, .content-images, .design-images {
+    background-color: #acafb2;
+    padding-top: 20px;
+}
+
+.icons-items img {
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.icons-blue {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    font-size: 0;
+    padding: 20px;
+}
+
+.design,
+.css,
+.components,
+.speed,
+.customize,
+.update {
+    display: inline-block;
+    background: #3056D3;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+    margin-right: 25px;
+    vertical-align: middle;
+    padding: 18px;
+}
+
+.css {
+    padding: 24px 16px;
+}
+
+.icons-gray {
+    margin-bottom: 20px;
+    font-size: 0;
+    padding: 20px;
+}
+
+.mail,
+.phone,
+.location {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #F7F8FA;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.location {
+    margin-right: 0;
+}
+
+.mail {
+    padding: 50px 44px;
+}
+
+.phone {
+    padding: 45px 47px;
+}
+
+.location {
+    padding: 42px 46px;
+}
+
+.phone-icon {
+    display: inline-block;
+    background: #3056D3;
+    padding: 12px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.phone-small {
+    display: inline-block;
+    background: #3056D3;
+    padding: 18px 15px;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.icons-social {
+    margin-bottom: 20px;
+    font-size: 0;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.facebook, .instagram, .twitter, .linkedin {
+    display: inline-block;
+    margin-right: 25px;
+    vertical-align: middle;
+}
+
+.content-images {
+    background-color: #ebeff4;
+}
+
+.content-images img {
+    margin: 5px;
+    border-radius: 15px;
+    max-height: 220px;
+}
+
+img.banner {
+    border-radius: 0;
+}
+
+img.circle-frame {
+    border-radius: 50%;
+}
+
+.design-images {
+    background-color: #bfa8e5;
+}
+
+.design-elements > div {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.design-decor {
+    background: url("../img/design/decor.svg") 0 0 no-repeat;
+}
+
+.dotted-shape {
+    background: url("../img/design/dotted-shape.svg") 0 0 no-repeat;
+}
+
+.dotted-shape-2 {
+    background: url("../img/design/dotted-shape-2.svg") 0 0 no-repeat;
+}
+
+.dotted-shape-3 {
+    background: url("../img/design/dotted-shape-3.svg") 0 0 no-repeat;
+}
+
+.dotted-shape-4 {
+    background: url("../img/design/dotted-shape-4.svg") 0 0 no-repeat;
+}
+
+.ellipse-1 {
+    background: url("../img/design/ellipse-1.svg") 0 0 no-repeat;
+}
+
+.ellipse-2 {
+    background: url("../img/design/ellipse-2.svg") 0 0 no-repeat;
+}
+
+.figure-1 {
+    background: url("../img/design/figure-1.svg") 0 0 no-repeat;
+}
+
+.figure-2 {
+    background: url("../img/design/figure-2.svg") 0 0 no-repeat;
+}
+
+.oval {
+    background: url("../img/design/oval.svg") 0 0 no-repeat;
+}
+
+.oval-2 {
+    background: url("../img/design/oval-2.svg") 0 0 no-repeat;
+}
+
+.shape-1 {
+    background: url("../img/design/shape-1.svg") 0 0 no-repeat;
+}
+
+.shape-2 {
+    background: url("../img/design/shape-2.svg") 0 0 no-repeat;
+}

@@ -1,0 +1,292 @@
+@import url("reset.css");
+@import url("common.css");
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,500,600&display=swap");
+
+body {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #9C9C9C;
+	line-height: 1.6;
+}
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper>main {
+	flex-grow: 1;
+}
+
+[class*="__container"] {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* Header styles start */
+
+.header__container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	height: 134px;
+	margin-bottom: 57px;
+}
+
+.menu {
+	margin-left: 20px;
+}
+
+.menu__list {
+	display: flex;
+	justify-content: flex-end;
+	gap: 74px;
+	align-items: center;
+}
+
+.menu__link {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333333;
+}
+
+.menu__link:hover {
+	color: #7c7575;
+}
+
+.menu__link_white {
+	color: #FFFFFF;
+}
+
+.active {
+	font-weight: 600;
+}
+
+.button {
+	display: inline-block;
+	background: #2C3878;
+	border: 1px solid #3C3C3C;
+	padding: 14px 32px;
+}
+
+.button:hover {
+	background: #6272cb;
+	border: 1px solid #fffcfc;
+}
+
+/* Header styles end */
+
+/* Project styles start */
+
+.project__container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.project__header {
+	margin-bottom: 53px;
+	max-width: 518px;
+}
+
+.project__title:not(:last-child) {
+	margin-bottom: 40px;
+}
+
+.title {
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.4;
+	color: #000000;
+	text-align: center;
+}
+
+.project__text {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.6;
+	text-align: center;
+	color: #000000;
+}
+
+.project__text:not(:last-child) {
+	margin-bottom: 53px;
+}
+
+.project__intro {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.project__main-image {
+	margin-bottom: 100px;
+	flex: 0 0 100%;
+	overflow: hidden;
+}
+
+.project__description {
+	margin-bottom: 80px;
+}
+
+.description-project {
+	display: flex;
+	column-gap: 32px;
+}
+
+.description-project__overview {
+	flex: 0 0 50%;
+}
+
+.description-project__title {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 1.4;
+	color: #333333;
+}
+
+.description-project__title:not(:last-child) {
+	margin-bottom: 24px;
+}
+
+.description-project__text:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.description-project__details {
+	padding-top: 30px;
+}
+
+.description-project__date {
+	display: inline-block;
+}
+
+.description-project__date:not(:last-child) {
+	margin-right: 80px;
+}
+
+.description-project__category {
+	display: inline-block;
+}
+
+.description-project__design {
+	flex: 0 0 50%;
+}
+
+.project__gallery {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 2.66%;
+	row-gap: 32px;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+.gallery-project__image {
+	flex: 0 1 48.6%;
+	overflow: hidden;
+}
+
+.gallery-project__image_fullwidth {
+	flex: 0 1 100%;
+	text-align: center;
+}
+
+/* Project styles end */
+
+/* Achievement styles start */
+
+.page__achievement {
+	margin-bottom: 100px;
+}
+
+.achievement__sub-title:not(:last-child) {
+	margin-bottom: 40px;
+}
+
+.sub-title {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #000000;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.sub-title::after {
+	content: "";
+	position: absolute;
+	border: 1px solid #000000;
+	top: 50%;
+	width: 40%;
+	margin-left: 26px;
+}
+
+.achievement__cards {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+}
+
+.achievement__card {
+	display: flex;
+	align-items: center;
+}
+
+.achievement__image {
+	flex: 0 0 62.16%;
+	overflow: hidden;
+}
+
+.achievement__description {
+	flex: 0 0 37.83%;
+	padding-left: 120px;
+}
+
+.achievement__title {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 1.4;
+	color: #333333;
+}
+
+.achievement__title:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.achievement__text:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.achievement__image img, .gallery-project__image img, .project__main-image img {
+	max-width: 100%;
+	transition: transform 0.9s;
+}
+
+.achievement__image img:hover, .gallery-project__image img:hover, .project__main-image img:hover {
+	transform: scale(1.1);
+}
+
+/* Achievement styles end */
+
+/* Footer styles start */
+
+.footer__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer__copyrights {
+	padding-left: 15px;
+}
+
+/* Footer styles end */

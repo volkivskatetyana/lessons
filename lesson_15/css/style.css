@@ -80,6 +80,7 @@ body {
 .button:hover {
 	background: #6272cb;
 	border: 1px solid #fffcfc;
+	color: #FFFFFF;
 }
 
 /* Header styles end */

@@ -142,7 +142,7 @@ body {
 }
 
 .description-project__overview {
-	flex: 0 0 50%;
+	flex: 0 0 48.6%;
 }
 
 .description-project__title {
@@ -177,7 +177,7 @@ body {
 }
 
 .description-project__design {
-	flex: 0 0 50%;
+	flex: 0 0 48.6%;
 }
 
 .project__gallery {
